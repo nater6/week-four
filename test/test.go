@@ -2,12 +2,10 @@ package main
 
 import (
 	"fmt"
-
 	"piscine"
 )
 
 func main() {
-
 	link := &piscine.List{}
 
 	piscine.ListPushFront(link, "Hello")
