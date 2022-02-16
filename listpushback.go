@@ -1,11 +1,11 @@
 package piscine
 
 func ListPushBack(l *List, data interface{}) {
-	adder := NodeL{Data: data}
+	adder := &NodeL{Data: data}
 
 	// If l.head is nil make the first value data
 	if l.Head == nil {
-		l.Head = &adder
+		l.Head = adder
 		return
 	}
 
@@ -15,5 +15,5 @@ func ListPushBack(l *List, data interface{}) {
 		x = x.Next
 	}
 
-	x.Next = &adder
+	x.Next = adder
 }
