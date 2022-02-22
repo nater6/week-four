@@ -6,7 +6,6 @@ type NodeI struct {
 }
 
 func ListSort(l *NodeI) *NodeI {
-
 	x := l.Next
 
 	for x != nil {
@@ -17,5 +16,4 @@ func ListSort(l *NodeI) *NodeI {
 		x = x.Next
 	}
 	return l.Next
-
 }
