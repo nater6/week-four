@@ -9,3 +9,8 @@ type List struct {
 	Head *NodeL
 	Tail *NodeL
 }
+
+type TreeNode struct {
+	Left, Right, Parent *TreeNode
+	Data                string
+}

@@ -14,7 +14,7 @@ func ListReverse(l *List) {
 			cur = nex
 		} else {
 			l.Head = cur
-			cur = nex
+			// cur = nex
 		}
 
 	}
